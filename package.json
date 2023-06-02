@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "prod": "npx pm2 start src/app.js -i max --no-daemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moralis": "^1.8.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.1.2",
+    "sequelize": "^6.9.0",
+    "sequelize-cli": "^6.3.0",
+    "short-uuid": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

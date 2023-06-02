@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "root",
+      "password": "T5%OWveq2krcrQiH",
+      "database": "nft",
+      "host": "nft-database-master.cvxlge6n0tyk.us-west-2.rds.amazonaws.com",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
